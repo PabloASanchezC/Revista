@@ -1,33 +1,34 @@
 :root {
-    --Green: #85A392;
-    --orange: #F5B971;
-    --yellow: #FDD998;
-    --beige: #FFECC7;
+  --Green: #85a392;
+  --orange: #f5b971;
+  --yellow: #fdd998;
+  --beige: #ffecc7;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 html {
-    font-size: 62.5%;
+  font-size: 62.5%;
 }
 
 body {
-    background-color: var(--Green);
-    display: grid;
-    place-items: center;
-    padding: 15vh;
+  background-color: var(--Green);
+  display: grid;
+  place-items: center;
+  width: 100vw;
+  height: 100vh;
 }
 
 .fondo {
-    display: grid;
-    width: 1024px;
-    height: 600px;
-    background-color: var(--beige);
-    box-shadow: 5px 6px 15px 0px rgba(0,0,0,0.3);
-    grid-template: repeat(3, 1fr) / repeat(9, 1fr);
-    column-gap: 15px;
+  display: grid;
+  width: 1024px;
+  height: 600px;
+  background-color: var(--beige);
+  box-shadow: 5px 6px 15px 0px rgba(0, 0, 0, 0.3);
+  grid-template: repeat(3, 1fr) / repeat(9, 1fr);
+  column-gap: 15px;
 }
