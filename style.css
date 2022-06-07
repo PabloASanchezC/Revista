@@ -18,17 +18,32 @@ html {
 body {
   background-color: var(--Green);
   display: grid;
-  place-items: center;
+  align-items: center;
   width: 100vw;
   height: 100vh;
 }
 
 .fondo {
   display: grid;
-  width: 1024px;
+  justify-content: center;
+  box-shadow: 5px 6px 15px 0px rgba(0, 0, 0, 0.3);
+  grid-template-columns: repeat(auto-fit, 340px);
+  /* grid-auto-flow: row;
+  grid-auto-rows: max-content; */
+  /* grid-template-rows: repeat(auto); */
+  /* gap: 15px; */
+}
+
+.c {
+  display: grid;
+  width:inherit;
   height: 600px;
   background-color: var(--beige);
-  box-shadow: 5px 6px 15px 0px rgba(0, 0, 0, 0.3);
-  grid-template: repeat(3, 1fr) / repeat(9, 1fr);
+  grid-template: repeat(2, 1fr) / repeat(3, 1fr);
   column-gap: 15px;
+  padding: 0 7.5px 0 ;
+}
+
+.c1 {
+  
 }
